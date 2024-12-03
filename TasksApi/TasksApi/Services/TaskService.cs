@@ -38,7 +38,7 @@ namespace TasksApi.Services
 
         public List<TasksWithUsers> GetAllTasksWithUser()
         {
-            _ILoggerService.Log("all task !!");
+            _ILoggerService.Log("all task");
 
             return _taskRepository.GetAllTasksWithUsers();
         }
